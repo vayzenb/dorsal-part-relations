@@ -111,10 +111,10 @@ def compute_aof(distImage ,IDX,sphere_points,epsilon):
 
 
 
-#imfiles = glob.glob(f'{stim_folder}/*.png')
-imfiles = ['C:/Users/vayze/Documents/Research/Presentations/Final Presentations/dog_binary.png']
+imfiles = glob.glob(f'{stim_folder}/*.png')
+
 #os.makedirs(f'{out_folder}/binary/', exist_ok = True)
-os.makedirs(f'{out_folder}/blur/', exist_ok = True)
+os.makedirs(f'{out_folder}/skeletons/', exist_ok = True)
 os.makedirs(f'{out_folder}/coords/', exist_ok = True)
 
 
@@ -205,5 +205,5 @@ for imf in imfiles:
     #save blurred binary
     skelim = gaussian(skelim, sigma=3)
     
-    io.imsave(f'{out_folder}/blur/{curr_file}.jpg',skelim)
+    io.imsave(f'{out_folder}/skeletons/{curr_file}.jpg',skelim)
     #skeletonImage[skeletonImage > flux_threshold] = 1
