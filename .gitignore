@@ -1,0 +1,7 @@
+modelling/weights/
+nilearn_cache/
+slurm_out/
+
+*_fsaverage.nii.gz
+*.out
+*.ipynb_checkpoints
