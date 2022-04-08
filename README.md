@@ -7,42 +7,42 @@ Slightly different naming conventions were used as shorthand for the tasks and d
 
 
 ## Task Names:
-    spaceloc: The 'spatial localizer.' Refers to the object-centered part relations localizer (part relations > features)
+spaceloc: The 'spatial localizer.' Refers to the object-centered part relations localizer (part relations > features)
 
-    distloc: The 'distance localizer.' Refers to the allocentric spatial relations localizer (distance > brightness)
+distloc: The 'distance localizer.' Refers to the allocentric spatial relations localizer (distance > brightness)
 
-    depthloc: The 'depth localizer.' Refers to depth localizer (3D shape > 2D shape)
+depthloc: The 'depth localizer.' Refers to depth localizer (3D shape > 2D shape)
 
-    toolloc: The 'tool localizer.' Refers to the tool localizer (parietal regions: tools > non-tools; object regions: tool + non-tool > scramble)
+toolloc: The 'tool localizer.' Refers to the tool localizer (parietal regions: tools > non-tools; object regions: tool + non-tool > scramble)
 
 
 ## Condition names:
-    space: relations condition from the object-centered part relations localizer 
+space: relations condition from the object-centered part relations localizer 
 
-    feature: feature condition from the object-centered part relations localizer 
+feature: feature condition from the object-centered part relations localizer 
 
-    distance: distance condition from the allocentric relations localizer 
+distance: distance condition from the allocentric relations localizer 
 
-    brightness/luminance: brightness condition from the allocentric relations localizer
+brightness/luminance: brightness condition from the allocentric relations localizer
 
-    3D: 3D shape condition from the depth localizer
+3D: 3D shape condition from the depth localizer
 
-    2D: 2D shape condition from the depth localizer
+2D: 2D shape condition from the depth localizer
 
-    tools: tool condition from the tool localizer
+tools: tool condition from the tool localizer
 
-    non_tools: non-tool condition from the tool localizer
+non_tools: non-tool condition from the tool localizer
 
 
 ## ROI Names:
-    PPC: Posterior parietal cortex. Corresponds to posterior IPS (pIPS)
+PPC: Posterior parietal cortex. Corresponds to posterior IPS (pIPS)
 
-    APC: Anterior parietal cortex. Corresponds to anterior IPS (aIPS)
+APC: Anterior parietal cortex. Corresponds to anterior IPS (aIPS)
 
-    LO: Lateral occipital. Corresponds to LOC
+LO: Lateral occipital. Corresponds to LOC
 
-    Since ROIs were functionally defined, they are generally labeled by their anatomical region + the localizer used to identify them. 
-    For example, 'rLO_toolloc' refers to the region in right LOC that was defined using the tool localizer. 
+Since ROIs were functionally defined, they are generally labeled by their anatomical region + the localizer used to identify them. 
+For example, 'rLO_toolloc' refers to the region in right LOC that was defined using the tool localizer. 
 
-    In some data files, an additional suffix may be included indicating the condition. 
-    For example, lAPC_spaceloc_3D may refer to the activation to the 3D shape condition from depth localizer within a left aIPS ROI defined using the object-centered relations localizer
+In some data files, an additional suffix may be included indicating the condition. 
+For example, lAPC_spaceloc_3D may refer to the activation to the 3D shape condition from depth localizer within a left aIPS ROI defined using the object-centered relations localizer
