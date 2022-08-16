@@ -1,5 +1,5 @@
 # The dorsal visual pathway represents object-centered spatial relations 
-files for docnet fmri project
+
 
 Code Repository for "The dorsal visual pathway represents object-centered spatial relations for object recognition"
 
